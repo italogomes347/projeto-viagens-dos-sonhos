@@ -1,4 +1,4 @@
-#Viagens dos Sonhos
+# Viagens dos Sonhos
 Projeto colaborativo desenvolvido para a atividade de criação de site com HTML, CSS, GitHub e GitHub Pages.
 
 Integrantes
