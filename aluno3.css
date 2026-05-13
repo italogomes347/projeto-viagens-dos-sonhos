@@ -6,7 +6,7 @@
 }
 
 body{
-    background:#0a0a0a;
+    background:#002b36;
     color:white;
     overflow-x:hidden;
 }
@@ -21,7 +21,7 @@ body{
     width:100%;
     height:100%;
     object-fit:cover;
-    filter:brightness(25%);
+    filter:brightness(35%);
 }
 
 .overlay{
@@ -30,8 +30,8 @@ body{
     z-index:-1;
     background:linear-gradient(
         90deg,
-        rgba(15, 15, 15, 0.96) 20%,
-        rgba(15, 15, 15, 0.7) 50%,
+        rgba(0, 77, 64, 0.9) 15%,
+        rgba(0, 77, 64, 0.7) 45%,
         transparent 100%
     );
 }
@@ -61,7 +61,7 @@ body{
     bottom:-8px;
     width:0%;
     height:2px;
-    background:#ffcc00;
+    background:#40e0d0;
     transition:0.3s;
 }
 
@@ -82,7 +82,7 @@ body{
     display:flex;
     flex-direction:column;
     justify-content:flex-end;
-    background:url('https://images.unsplash.com/photo-1467269204594-9661b134dd2b?q=80&w=2070&auto=format&fit=crop') center/cover;
+    background:url('https://images.unsplash.com/photo-1514282401047-d79a71a590e8?q=80&w=1974&auto=format&fit=crop') center/cover;
     position:relative;
     overflow:hidden;
 }
@@ -91,7 +91,7 @@ body{
     content:'';
     position:absolute;
     inset:0;
-    background:linear-gradient(transparent, rgba(0,0,0,0.85));
+    background:linear-gradient(transparent, rgba(0,0,0,0.8));
 }
 
 .hero-content{
@@ -101,7 +101,7 @@ body{
 
 .back{
     text-decoration:none;
-    color:#ffcc00;
+    color:#40e0d0;
     margin-bottom:20px;
     display:inline-block;
 }
@@ -139,7 +139,7 @@ body{
 }
 
 .mini-card i{
-    color:#ffcc00;
+    color:#40e0d0;
     font-size:24px;
     margin-bottom:10px;
 }
@@ -151,7 +151,7 @@ body{
 }
 
 .section-card{
-    background:rgba(20,20,20,0.4);
+    background:rgba(0,0,0,0.3);
     backdrop-filter:blur(15px);
     border:1px solid rgba(255,255,255,0.1);
     padding:30px;
@@ -166,11 +166,11 @@ body{
 }
 
 .section-title i{
-    color:#ffcc00;
+    color:#40e0d0;
 }
 
 .link-item{
-    background:rgba(255,255,255,0.02);
+    background:rgba(255,255,255,0.03);
     padding:15px;
     border-radius:15px;
     margin-bottom:10px;
@@ -183,5 +183,5 @@ body{
 }
 
 .link-left i{
-    color:#ffcc00;
+    color:#40e0d0;
 }
